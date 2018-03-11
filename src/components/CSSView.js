@@ -2,16 +2,12 @@ import React, { Component } from 'react'
 
 import CodeMirror from 'react-codemirror'
 
-require('codemirror/lib/codemirror.css');
-require('codemirror/mode/css/css');
+import 'codemirror/mode/css/css'
 
 export default class CSSView extends Component {
 	constructor(props) {
 		super(props)
 	}
-
-	onLoad() {}
-	onChange() {}
 
 	render() {
 		let props = this.props,

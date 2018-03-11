@@ -7,7 +7,7 @@ import SplitPane from 'react-split-pane'
 import './css/normalize.css'
 import './css/font-awesome.min.css'
 import 'codemirror/lib/codemirror.css'
-import 'codemirror/theme/eclipse.css'
+import 'codemirror/theme/monokai.css'
 import './css/jsdabble.css'
 
 import Logo from './img/jsdabble-logo@1x.png'
@@ -33,7 +33,7 @@ export default class JSDabble extends Component {
 			isActiveRenderView: true,
 			isActiveConsoleView: true,
 
-			editorTheme: 'eclipse'
+			editorTheme: 'monokai'
 		}
 
 		this.toggleView.bind(this)

@@ -2,15 +2,12 @@ import React, { Component } from 'react'
 
 import CodeMirror from 'react-codemirror'
 
-require('codemirror/mode/htmlmixed/htmlmixed');
+import 'codemirror/mode/htmlmixed/htmlmixed'
 
 export default class HTMLView extends Component {
 	constructor(props) {
 		super(props)
 	}
-
-	onLoad() {}
-	onChange() {}
 
 	render() {
 		let props = this.props,

@@ -12,7 +12,7 @@ export default class RenderView extends Component {
 			return <span children="inactive" style={{display: 'none'}} />
 
 		return (
-			<div className="jsdabble-view">
+			<div id="render-view" className="jsdabble-view">
 				<h1 children="RenderView" />
 			</div>
 		)
