@@ -33,6 +33,8 @@ export default class JSDabble extends Component {
 			isActiveRenderView: true,
 			isActiveConsoleView: true,
 
+			currentEditorView: 'jsview',
+
 			editorTheme: 'monokai'
 		}
 
@@ -90,6 +92,7 @@ export default class JSDabble extends Component {
 				state.isActiveRenderView
 			],
 			viewWidth = 100 / activeViewCounter(viewList)
+
 
 		return (
 			<main id="jsdabble">
